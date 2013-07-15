@@ -1,4 +1,2 @@
-Ideas to build a map editor
+LOVE 2D Learning Physics
 ===========================
-
-Store the position of the tiles and their filenames in the level file.
