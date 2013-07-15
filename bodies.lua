@@ -28,7 +28,7 @@ end
 
 function love.draw()
     love.graphics.setColor(100, 100, 100)
-    love.graphics.polygon('line', staticBody:getWorldPoints(bodyShape:getPoints()))
+    love.graphics.polygon('line', staticBody:getWorldPoints(staticBodyShape:getPoints()))
 
     love.graphics.setColor(255, 255, 255)
     love.graphics.polygon('line', body:getWorldPoints(bodyShape:getPoints()))
